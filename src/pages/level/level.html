@@ -1,0 +1,20 @@
+<!--
+  Generated template for the LevelPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>level</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button round color="secondary" (click)="getQuestions('easy')">Easy</button>
+  <button ion-button round (click)="getQuestions('medium')">Medium</button>
+  <button ion-button round color="danger" (click)="getQuestions('hard')">Hard</button>
+</ion-content>

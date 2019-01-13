@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-input placeholder="Username" [(ngModel)]="inputUsername"></ion-input>
+  </ion-item>
+  <button ion-button round (click)="saveForm()">Save</button>
+  <button ion-button round (click)="loadForm()">Load</button>
+</ion-content>
+
